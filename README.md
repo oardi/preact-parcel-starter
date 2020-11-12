@@ -1,6 +1,6 @@
-# vuejs-parcel-starter
+# preact-parcel-starter
 
-Simple VueJs Parcel starter template
+Simple Preact & Parcel starter template
 
 ## Start
 `npm start`

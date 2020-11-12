@@ -12,6 +12,6 @@ export const ButtonCounter = ({ name, onClicked }) => {
 	return (
 		<button onClick={() => handleClick()} class="btn btn-outline-primary">
 			{name} - You clicked me {count} times
-    	</button>
+		</button>
 	)
 }
