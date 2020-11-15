@@ -11,7 +11,7 @@ export function Home() {
 			<h1>
 				Home
 			</h1>
-			<ButtonCounter name="Preact JSX" onClicked={(e) => onChildClicked(e)} />
+			<ButtonCounter name="Click me" onClicked={(e) => onChildClicked(e)} />
 		</Fragment>
 	);
 }

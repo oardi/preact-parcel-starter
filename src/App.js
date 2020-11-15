@@ -7,7 +7,7 @@ import { About } from './pages/About';
 import { useState } from 'preact/hooks';
 
 export const App = () => {
-	const [name] = useState("Hello Preact TSX Parcel");
+	const [name] = useState("Hello Preact Parcel");
 
 	return (
 		<Fragment>
@@ -27,7 +27,7 @@ export const App = () => {
 
 					<div default>
 						404
-      					</div>
+      				</div>
 				</Router>
 			</div>
 		</Fragment>
