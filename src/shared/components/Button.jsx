@@ -1,15 +1,16 @@
 import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
-import { COLOR, VARIANT } from './component.enums';
+import { VARIANT } from './component.enums';
+import { withColor } from './withColor';
 
-export const Button = ({
+const BaseButton = ({
 	children,
 	block = false,
-	color = COLOR.primary,
 	disabled = false,
 	isRounded = false,
 	isActive = false,
 	onClick,
+	color,
 	variant = VARIANT.normal
 }) => {
 
@@ -57,3 +58,5 @@ export const Button = ({
 		</button>
 	);
 };
+
+export const Button = withColor(BaseButton);

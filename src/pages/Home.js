@@ -1,6 +1,7 @@
 import { h, Fragment } from 'preact';
 import { ButtonCounter } from '../components/ButtonCounter';
 import { Button } from '../shared/components/Button';
+import { COLOR } from '../shared/components/component.enums';
 
 export function Home() {
 	const onChildClicked = () => {
@@ -12,9 +13,14 @@ export function Home() {
 			<h1>
 				Home
 			</h1>
-			<ButtonCounter name="Click me" onClicked={(e) => onChildClicked(e)} />
+			<ButtonCounter
+				name="Click me"
+				onClicked={(e) => onChildClicked(e)}
+			/>
 
-			<Button>some button</Button>
+			<Button color={COLOR.primary}>
+				some button
+			</Button>
 		</Fragment>
 	);
 }
