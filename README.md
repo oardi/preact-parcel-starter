@@ -3,8 +3,8 @@ Simple Preact Parcel starter template
 
 ## Included
 - preact
-- preact router with history
-- twitter bootstrap with sass
+- buttonCounter component
+- normalize.css
 
 ## Start
 `npm install -g parcel`
