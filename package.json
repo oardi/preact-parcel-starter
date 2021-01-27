@@ -10,7 +10,7 @@
 		"start": "parcel ./src/index.html --port 8080 --open"
 	},
 	"dependencies": {
-		"normalize.css": "^8.0.1",
+		"modern-normalize": "^1.0.0",
 		"preact": "^10.5.12"
 	},
 	"devDependencies": {
